@@ -1,0 +1,136 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p{
+  border: solid;
+  border-color: red;
+} */
+/* .centercontent{
+  margin: auto;
+} */
+.jumbotron{
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+}
+h2{
+  font-family:cursive;
+}
+.element {
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
+}
+.portfoliobox{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* contact ccs */
+
+form input, form textarea{
+  font-size: 15px;
+  line-height: 80%;
+}
+form h4{
+  line-height: 25px;
+  /* margin: 10px; */
+}
+#contactbox input{
+  width: 90%;
+}
+#contactbox textarea{
+  width: 90%;
+  height: 200px;
+}
+button{
+  color: white;
+  background-color:#4aaaa5;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+}
+button:hover{
+  animation-name: backgroundchange;
+  animation-duration: 3s;
+}
+@keyframes backgroundchange {
+  from{background-color: #DBE9EE;}
+  to{background-color: #4aaaa5;}
+}
+
+/* footer */
+html, body{
+ height: 100%;
+}
+.page-wrap{
+ min-height: 100%;
+ margin-bottom: -120px;
+}
+.page-wrap:after{
+ content: "";
+ display: block;
+}
+/* .site-footer, .page-wrap::after{
+ padding-top: 80px;
+} */
+.site-footer{
+ background-color: #F5F5F5;
+ /* margin-top: -150px; */
+ height: 120px;
+ background: solid;
+ position: absolute;
+ display: block;
+ width: 100%;
+ text-align: center;
+ z-index: 1;
+}
+.site-footer p{
+ /* margin-top: 70px; */
+ font-size: 10px;
+}
+.filler{
+  height: 300px;
+  max-width: 100%;
+}
+
+/* icon */
+.iconlink{
+  width:170px;
+  margin: 20px auto;
+}
+.smallbox{
+  width: 50px;
+  height: 50px;
+  margin: 0 2px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1{
+  background-image: url("../images/icons/github.png");
+}
+.box2{
+  background-image: url("../images/icons/linkicon.png");
+}
+.box3{
+  background-image: url("../images/icons/stackicon.png");
+}
+.box1:hover{
+  background-image: url("../images/icons/githubicon.png");
+}
+.box2:hover{
+  background-image: url("../images/icons/link-icon.jpg");
+}
+.box3:hover{
+  background-image: url("../images/icons/stack.png");
+}
+#portfolio{
+  text-align: center;
+  margin: 20px;
+}
