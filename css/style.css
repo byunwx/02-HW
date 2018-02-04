@@ -134,3 +134,20 @@ html, body{
   text-align: center;
   margin: 20px;
 }
+#mypicture{
+  background-image: url("../images/icons/stack.png");
+  height: 300px;
+  width: 300px;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+p{
+  line-height: 200%;
+}
+.html-portfolio .thumbnail img{
+  height:250px;
+  width: auto;
+}
